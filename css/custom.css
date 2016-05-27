@@ -1,4 +1,7 @@
-.navbar {
+.navbar-nav {
   background-color: #c0392b; }
+
+.navbar-nav > li > a {
+  color: white; }
 
 /*# sourceMappingURL=custom.css.map */

@@ -1,5 +1,9 @@
 $angel_red: #c0392b;
 
-.navbar {
+.navbar-nav {
   background-color: $angel_red;
+}
+
+.navbar-nav>li>a {
+  color: white;
 }
