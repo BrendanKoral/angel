@@ -1,10 +1,23 @@
 .navbar {
-  background-color: #c0392b; }
+  background-color: #c0392b;
+  border: none; }
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: #FFF; }
+
+.navbar-inverse .navbar-brand {
+  color: #FFF; }
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #FFF; }
 
 .navbar-nav > li > a {
   color: #FFF; }
 
 .navbar-brand {
   color: #FFF; }
+
+.navbar-inverse .navbar-toggle {
+  border-color: #FFF; }
 
 /*# sourceMappingURL=custom.css.map */
