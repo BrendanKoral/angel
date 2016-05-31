@@ -1,7 +1,10 @@
-.navbar-nav {
+.navbar {
   background-color: #c0392b; }
 
 .navbar-nav > li > a {
-  color: white; }
+  color: #FFF; }
+
+.navbar-brand {
+  color: #FFF; }
 
 /*# sourceMappingURL=custom.css.map */
