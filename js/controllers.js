@@ -14,3 +14,11 @@ artistControllers.controller('DetailsController', ['$scope', '$http', '$routePar
 
   });
 }]);
+
+artistControllers.controller('faqController', function($scope) {
+  $scope.pageClass = 'page-faq';
+});
+
+artistControllers.controller('homeController', function($scope) {
+  $scope.pageClass = 'page-home';
+});

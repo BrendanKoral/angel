@@ -1,0 +1,83 @@
+/* ANIMATIONS
+============================================================================= */
+
+/* leaving animations ----------------------------------------- */
+
+
+@keyframes fadeOut {
+  0% { opacity: 100;}
+  20% { opacity: 80;}
+  40% { opacity: 60;}
+  60% { opacity: 40;}
+  80% { opacity: 20;}
+  100% { opacity: 0;}
+}
+
+@keyframes disappear {
+  100% { opacity: 0; }
+}
+
+
+
+/* entering animations --------------------------------------- */
+/* scale up */
+
+@keyframes scaleUp {
+  from    { opacity: 0.3; -webkit-transform: scale(0.8); }
+}
+
+
+
+.ng-enter       { z-index: 8888; }
+.ng-leave       { z-index: 9999; }
+
+/* page specific animations ------------------------ */
+
+/* faq -------------------------- */
+//.page-faq.ng-enter         { animation: scaleUp 0.5s both ease-in; }
+//.page-faq.ng-leave         { animation: fadeOut 0.2s both ease-out; }
+//
+//.page-home.ng-enter         { animation: scaleUp 0.7s both ease-in; }
+//.page-home.ng-leave         { animation: fadeOut 0s both ease-out; }
+//
+
+
+
+
+
+.page-faq.ng-animate {
+  transition:0.5s linear all;
+}
+.page-faq.ng-enter {
+  opacity:0;
+}
+.page-faq.ng-enter.ng-enter-active {
+  opacity:1;
+}
+.page-faq.ng-leave {
+  opacity:1;
+}
+.page-faq.ng-leave.ng-leave-active {
+  opacity:0;
+}
+
+
+
+
+
+
+.page-home.ng-animate {
+  transition:0.5s linear all;
+}
+.page-home.ng-enter {
+  opacity:0;
+}
+.page-home.ng-enter.ng-enter-active {
+  opacity:1;
+}
+.page-home.ng-leave {
+  opacity:1;
+}
+.page-home.ng-leave.ng-leave-active {
+  opacity:0;
+}

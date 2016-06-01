@@ -7,7 +7,7 @@ myApp.config(['$routeProvider', function($routeProvider){
   $routeProvider.
   when ('/home', {
     templateUrl: 'partials/home.html',
-    controller: 'ListController'
+    controller: 'homeController'
   }).
 
   when ('/contact', {
@@ -25,7 +25,7 @@ myApp.config(['$routeProvider', function($routeProvider){
   }).
   when('/faq', {
     templateUrl: 'partials/faq.html',
-    controller: 'DetailsController'
+    controller: 'faqController'
   }).
   otherwise({
     redirectTo: '/home'
