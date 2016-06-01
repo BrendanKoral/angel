@@ -23,6 +23,10 @@ myApp.config(['$routeProvider', function($routeProvider){
     templateUrl: 'partials/gallery.html',
     controller: 'DetailsController'
   }).
+  when('/faq', {
+    templateUrl: 'partials/faq.html',
+    controller: 'DetailsController'
+  }).
   otherwise({
     redirectTo: '/home'
   });
