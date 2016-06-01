@@ -4,6 +4,19 @@ $white: #FFF;
 
 .navbar {
   background-color: $angel_red;
+  border: none;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: $white;
+}
+
+.navbar-inverse .navbar-brand {
+  color: $white;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: $white;
 }
 
 .navbar-nav>li>a {
@@ -14,6 +27,11 @@ $white: #FFF;
   color: $white;
 }
 
+<<<<<<< HEAD
 .main {
   margin-top: 70px;
+=======
+.navbar-inverse .navbar-toggle {
+  border-color: $white;
+>>>>>>> 560bdc248f9cc8f316844e23c0be38bb58025c38
 }
