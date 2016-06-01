@@ -1,50 +1,26 @@
-/*
-Error: Invalid CSS after "...0be38bb58025c38": expected "{", was "}"
-        on line 37 of custom.scss
+.navbar {
+  background-color: #c0392b;
+  border: none; }
 
-32:   margin-top: 70px;
-33: =======
-34: .navbar-inverse .navbar-toggle {
-35:   border-color: $white;
-36: >>>>>>> 560bdc248f9cc8f316844e23c0be38bb58025c38
-37: }
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: #FFF; }
 
-Backtrace:
-custom.scss:37
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1125:in `expected'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1120:in `tok!'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:656:in `block'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:726:in `declaration_or_ruleset'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:676:in `block_child'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:668:in `block_contents'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:657:in `block'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:726:in `declaration_or_ruleset'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:676:in `block_child'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:668:in `block_contents'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:657:in `block'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:649:in `ruleset'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:675:in `block_child'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:668:in `block_contents'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:125:in `stylesheet'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:41:in `parse'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/engine.rb:406:in `_to_tree'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin.rb:82:in `update_stylesheets'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:51:in `process_result'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/bin/scss:13:in `<top (required)>'
-C:/Ruby22/bin/scss:23:in `load'
-C:/Ruby22/bin/scss:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...0be38bb58025c38\": expected \"{\", was \"}\"\A         on line 37 of custom.scss\A \A 32:   margin-top: 70px;\A 33: =======\A 34: .navbar-inverse .navbar-toggle {\A 35:   border-color: $white;\A 36: >>>>>>> 560bdc248f9cc8f316844e23c0be38bb58025c38\A 37: }"; }
+.navbar-inverse .navbar-brand {
+  color: #FFF; }
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #FFF; }
+
+.navbar-nav > li > a {
+  color: #FFF; }
+
+.navbar-brand {
+  color: #FFF; }
+
+.main {
+  margin-top: 70px; }
+
+.navbar-inverse .navbar-toggle {
+  border-color: #FFF; }
+
+/*# sourceMappingURL=custom.css.map */
