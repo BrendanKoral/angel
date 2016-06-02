@@ -1,36 +1,11 @@
-/* ANIMATIONS
-============================================================================= */
-/* leaving animations ----------------------------------------- */
-@keyframes fadeOut {
-  0% {
-    opacity: 100; }
-  20% {
-    opacity: 80; }
-  40% {
-    opacity: 60; }
-  60% {
-    opacity: 40; }
-  80% {
-    opacity: 20; }
-  100% {
-    opacity: 0; } }
-@keyframes disappear {
-  100% {
-    opacity: 0; } }
-/* entering animations --------------------------------------- */
-/* scale up */
-@keyframes scaleUp {
-  from {
-    opacity: 0.3;
-    -webkit-transform: scale(0.8); } }
+/* ANIMATIONS */
 .ng-enter {
   z-index: 8888; }
 
 .ng-leave {
   z-index: 9999; }
 
-/* page specific animations ------------------------ */
-/* faq -------------------------- */
+/*  FAQ page enter and leave */
 .page-faq.ng-animate {
   transition: 0.5s linear all; }
 
@@ -41,11 +16,12 @@
   opacity: 1; }
 
 .page-faq.ng-leave {
-  opacity: 1; }
+  display: none; }
 
 .page-faq.ng-leave.ng-leave-active {
-  opacity: 0; }
+  display: none; }
 
+/*  Home page enter and leave */
 .page-home.ng-animate {
   transition: 0.5s linear all; }
 
@@ -56,10 +32,10 @@
   opacity: 1; }
 
 .page-home.ng-leave {
-  opacity: 1; }
+  display: none; }
 
 .page-home.ng-leave.ng-leave-active {
-  opacity: 0; }
+  display: none; }
 
 .navbar {
   background-color: #c0392b;
