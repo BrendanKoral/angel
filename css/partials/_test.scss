@@ -19,3 +19,21 @@
 //  -moz-box-sizing: content-box;
 //  box-sizing: content-box;
 //}
+
+
+.expand:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+  transition-duration: .8s;
+}
+.expand {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  transition-duration: .8s;
+}
