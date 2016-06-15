@@ -69,6 +69,19 @@
   transform: scale(1);
   transition-duration: .8s; }
 
+body, html {
+  height: 100%; }
+
+.wide {
+  width: 100%;
+  height: auto;
+  height: calc(100% - 1px);
+  background-image: url("/img/three.jpg");
+  background-size: cover; }
+
+.wide img {
+  width: 100%; }
+
 .navbar {
   background-color: #c0392b;
   border: none; }
@@ -93,5 +106,8 @@
 
 .navbar-inverse .navbar-toggle {
   border-color: #FFF; }
+
+.gallery {
+  margin-top: 100px; }
 
 /*# sourceMappingURL=custom.css.map */
