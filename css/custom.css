@@ -83,10 +83,12 @@ body, html {
   width: 100%; }
 
 body {
-  margin-top: 60px;
   font-size: 14px;
   font-family: "Helvetica Nueue",Arial,Verdana,sans-serif;
   background-color: #E5E9ED; }
+
+.help {
+  margin-top: 80px; }
 
 .btn:hover,
 .btn:focus,
@@ -398,7 +400,7 @@ pre.prettyprint {
 .navbar-brand {
   color: #FFF; }
 
-.main {
+.root {
   margin-top: 50px; }
 
 .navbar-inverse .navbar-toggle {
