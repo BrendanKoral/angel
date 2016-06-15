@@ -20,5 +20,5 @@ artistControllers.controller('faqController', function($scope) {
 });
 
 artistControllers.controller('homeController', function($scope) {
-  $scope.pageClass = 'page-home';
+  $scope.pageClass = 'page-home wide';
 });
