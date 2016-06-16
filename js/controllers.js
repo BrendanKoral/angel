@@ -22,3 +22,12 @@ artistControllers.controller('faqController', function($scope) {
 artistControllers.controller('homeController', function($scope) {
   $scope.pageClass = 'page-home wide';
 });
+
+artistControllers.controller('HelpController', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams) {
+  $http.get('js/children/children.json').success(function(data) {
+    $scope.children = data;
+    $scope.whichItem = $routeParams.itemId;
+    $scope.default = "default";
+
+  });
+}]);

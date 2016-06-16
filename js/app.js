@@ -34,6 +34,20 @@ myApp.directive('head', ['$rootScope','$compile',
   }
 ]);
 
+//Below directive sets the default image in the event that a child doesn't have a picture in the folder
+
+myApp.directive('errSrc', function() {
+  return {
+    link: function(scope, element, attrs) {
+      element.bind('error', function() {
+        if (attrs.src != attrs.errSrc) {
+          attrs.$set('src', attrs.errSrc);
+        }
+      });
+    }
+  }
+});
+
 
 myApp.config(['$routeProvider', function($routeProvider){
   $routeProvider.
@@ -61,7 +75,7 @@ myApp.config(['$routeProvider', function($routeProvider){
   }).
   when('/howwehelp', {
     templateUrl: 'partials/howwehelp.html',
-    controller: 'faqController'
+    controller: 'HelpController'
     // css: 'css/rotating-card.css'
   }).
   otherwise({
