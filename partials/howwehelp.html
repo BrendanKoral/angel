@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-sm-10 col-sm-offset-1">
             <!--         <div class="col-sm-1"></div> -->
-            <div class="col-md-4 col-sm-6">
+            <div class="col-md-4 col-sm-6" ng-repeat="c in children">
                 <div class="card-container manual-flip">
                     <div class="card">
                         <div class="front">
@@ -10,13 +10,14 @@
                                 <img src="img/cards/clouds.jpg"/>
                             </div>
                             <div class="user">
-                                <img class="img-circle" src="img/children/milosz.jpg"/>
+                                <img class="img-circle" ng-src="img/children/{{c.first_name}}.jpg" err-src="img/children/default.jpeg"/>
+                                <!--ng-init="src='img/children/default.jpg'"-->
                             </div>
                             <div class="content">
                                 <div class="main">
-                                    <h3 class="name">Andrew Mike</h3>
-                                    <p class="profession">Web Developer</p>
-                                    <p class="text-center">"Lamborghini Mercy <br>Your chick she so thirsty <br>I'm in that two seat Lambo"</p>
+                                    <h3 class="name">{{c.name}}</h3>
+                                    <p class="profession">Hometown perhaps?</p>
+                                    <p class="text-center">{{c.preview}}</p>
                                 </div>
                                 <div class="footer">
                                     <button class="btn btn-simple" onclick="rotateCard(this)">
