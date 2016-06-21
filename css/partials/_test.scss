@@ -4,21 +4,20 @@ body,html {
 
 .wide {
   width:100%;
-  height:auto;
+  //height:auto;
   height:calc(100% - 1px);
-  background-image:url('/img/three.jpg');
   background-size:cover;
+  background:
+          /* top, transparent red */
+          linear-gradient(
+                          rgba(0, 0, 0, 0.45),
+                          rgba(0, 0, 0, 0.45)
+          ),
+            /* bottom, image */
+          url(/img/three.jpg);
 }
 
-.wide img {
-  width:100%;
+.gradient {
+  display: inline-block;
+  z-index: 111;
 }
-
-
-
-
-
-
-
-
-
