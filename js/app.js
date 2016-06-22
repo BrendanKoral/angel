@@ -76,7 +76,10 @@ myApp.config(['$routeProvider', function($routeProvider){
   when('/howwehelp', {
     templateUrl: 'partials/howwehelp.html',
     controller: 'HelpController'
-    // css: 'css/rotating-card.css'
+  }).
+  when('/directors', {
+    templateUrl: 'partials/directors.html',
+    controller: 'HelpController'
   }).
   otherwise({
     redirectTo: '/home'

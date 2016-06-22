@@ -28,6 +28,12 @@ artistControllers.controller('HelpController', ['$scope', '$http', '$routeParams
     $scope.children = data;
     $scope.whichItem = $routeParams.itemId;
     $scope.default = "default";
+  });
+}]);
 
+artistControllers.controller('DirectorsController', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams) {
+  $http.get('js/directors/directors.json').success(function(data) {
+    $scope.directors = data;
+    $scope.whichItem = $routeParams.itemId;
   });
 }]);
