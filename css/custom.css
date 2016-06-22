@@ -82,6 +82,13 @@ body, html {
   display: inline-block;
   z-index: 111; }
 
+.blogfooter {
+  margin-top: 40px;
+  border-top: 1px solid #EEEEEE;
+  color: #999999;
+  padding: 10px 0 0;
+  text-align: center; }
+
 body {
   font-size: 14px;
   font-family: "Helvetica Nueue",Arial,Verdana,sans-serif;
