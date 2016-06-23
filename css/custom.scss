@@ -30,6 +30,15 @@ $white: #FFF;
   color: $white;
 }
 
+.jumbotron {
+  background: url("/img/three.jpg") no-repeat center center;
+  -moz-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  color: #FFF; // change text color
+  height: 100vh;
+  margin-top: -50px;
+}
 
 .root {
           margin-top: 50px;

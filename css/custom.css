@@ -69,19 +69,6 @@
   transform: scale(1);
   transition-duration: .8s; }
 
-body, html {
-  height: 100%; }
-
-.wide {
-  width: 100%;
-  height: calc(100% - 1px);
-  background-size: cover;
-  background: url(/img/three.jpg); }
-
-.gradient {
-  display: inline-block;
-  z-index: 111; }
-
 .blogfooter {
   margin-top: 40px;
   border-top: 1px solid #EEEEEE;
@@ -407,8 +394,18 @@ pre.prettyprint {
 .navbar-brand {
   color: #FFF; }
 
+.jumbotron {
+  background: url("/img/three.jpg") no-repeat center center;
+  -moz-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  color: #FFF;
+  height: 100vh;
+  margin-top: -50px; }
+
 .root {
-  margin-top: 50px; }
+  margin-top: 50px;
+}
 
 .navbar-inverse .navbar-toggle {
   border-color: #FFF; }
