@@ -1,6 +1,5 @@
-//body,html {
-//  height: 100%;
-//}
+$angel_red: #c0392b;
+$white: #FFF;
 
 //.wide {
 //  width:100%;
@@ -10,9 +9,44 @@
 //  //background: url(/img/three.jpg);
 //}
 
+.event-header {
+  height: 60px;
+  background-color: $angel_red;
+  margin-top: -20px;
+}
+
+.card {
+  padding-top: 10px;
+}
+.event-header > h3 {
+  padding-top: 18px;
+}
+
+.separation {
+  //padding-top: 30px;
+  color: $white;
+  background-color: $angel_red;
+}
+
+.event-separate {
+  margin-top: 52px;
+}
+
+//.eventitem {
+//  border-top: 1px solid $angel_red;
+//}
+
 
 .blogfooter {
-  margin-top: 40px;
+  margin-top: 35px;
+  border-top: 1px solid #EEEEEE;
+  color: #999999;
+  padding: 10px 0 0;
+  text-align: center;
+}
+
+.eventfooter {
+  margin-top: 305px;
   border-top: 1px solid #EEEEEE;
   color: #999999;
   padding: 10px 0 0;
