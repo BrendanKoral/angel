@@ -79,7 +79,7 @@ myApp.config(['$routeProvider', function($routeProvider){
   }).
   when('/directors', {
     templateUrl: 'partials/directors.html',
-    controller: 'HelpController'
+    controller: 'DirectorsController'
   }).
   otherwise({
     redirectTo: '/home'
