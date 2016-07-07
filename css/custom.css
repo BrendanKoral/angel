@@ -408,6 +408,12 @@ pre.prettyprint {
   .card-container.manual-flip.hover .back {
     z-index: 5;
     visibility: visible; } }
+.faq {
+  margin-top: 50px; }
+
+.drop {
+  margin-bottom: 20px; }
+
 .navbar {
   background-color: #c0392b;
   border: none; }
