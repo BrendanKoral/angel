@@ -414,6 +414,19 @@ pre.prettyprint {
 .drop {
   margin-bottom: 20px; }
 
+input.ng-invalid.ng-touched {
+  border: 1px solid #c0392b; }
+
+input.ng-valid.ng-touched {
+  border: 1px solid #509D12; }
+
+.error {
+  color: #c0392b;
+  padding-top: 3px; }
+
+.validationerror {
+  padding-top: 10px; }
+
 .navbar {
   background-color: #c0392b;
   border: none; }

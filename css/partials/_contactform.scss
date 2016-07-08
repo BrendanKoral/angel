@@ -1,0 +1,19 @@
+$angel_red: #c0392b;
+
+input.ng-invalid.ng-touched {
+  border: 1px solid $angel_red;
+}
+
+input.ng-valid.ng-touched {
+  border: 1px solid #509D12;
+}
+
+.error {
+  color: $angel_red;
+  padding-top: 3px;
+  //padding-bottom: 5px;
+}
+
+.validationerror {
+  padding-top: 10px;
+}
