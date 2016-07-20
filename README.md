@@ -11,4 +11,4 @@ As the project progressed, however, I realized that I could have focused less on
 
 ##View this project
 
-To get this up and running in your browser, you need to install a desktop server such as Apache. You can then checkout the repository and `npm install live-server`, then `live-server` in the direcotry to launch it in a browser.
+To get this up and running in your browser, you need to install a desktop server such as Apache. You can then checkout the repository and `npm install -g live-server`, then `live-server` in the direcotry to launch it in a browser.
